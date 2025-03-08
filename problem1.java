@@ -2,7 +2,7 @@ public class problem1
 {
     public static int[] countPositivesSumNegatives(int[] input) {
         if (input == null || input.length == 0) {
-            return new int[0]; // Return an empty array for null or empty input
+            return new int[0];
         }
 
         int countPositives = 0;
